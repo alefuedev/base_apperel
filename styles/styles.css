@@ -1,6 +1,13 @@
-.container {
+.conta iner {
   display: flex;
   flex-direction: column;
+}
+
+.attention {
+	position: absolute;
+	right: 110px;
+	top: 700px;
+	opacity: 0;
 }
 
 .coming-soon {
@@ -35,7 +42,7 @@ button {
   );
   position: absolute;
   right: 28px;
-  height: 45px;
+  height: 48px;
   width: 65px;
 }
 
