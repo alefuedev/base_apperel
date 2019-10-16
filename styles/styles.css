@@ -105,6 +105,13 @@ input {
 }
 
 @media screen and (min-width: 380px) {
+
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+		background-image: none;
+  }
+
   .attention {
     position: absolute;
     opacity: 0;
@@ -158,12 +165,12 @@ input {
   button {
     position: absolute;
     top: 0px;
-    right: 1070px;
+    right: 910px;
   }
 
   form {
     margin-top: 50px;
-    margin-left: -950px;
+    margin-left: -810px;
   }
 
   header {
