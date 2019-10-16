@@ -1,8 +1,71 @@
 .container {
-	display: flex;
+  display: flex;
+  flex-direction: column;
 }
 
-.logo{
-	margin: 30px 0 30px 30px;
-	height: 25px;
+.coming-soon {
+  font-size: 1.5em;
+  margin-top: 60px;
+  letter-spacing: 10px;
+  line-height: 10px;
+}
+
+.hero {
+  margin-left: -12px;
+  width: 400px;
+}
+
+.logo {
+  margin: 30px 0 30px 30px;
+  height: 25px;
+}
+
+.we {
+  color: hsl(0, 36%, 70%);
+  font-weight: 100 !important;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
+  position: absolute;
+  right: 28px;
+  height: 50px;
+  width: 65px;
+}
+
+form {
+  position: relative;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+main {
+  text-align: center;
+}
+
+p {
+  color: hsl(0, 36%, 70%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.8em;
+  line-height: 25px;
+  margin: 0 20px 30px 20px;
+}
+
+input {
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 30px;
+	color:hsl(0, 36%, 70%);
+	font-family: 'Josefin Sans', sans-serif;
+  padding: 15px 0 15px 0;
+	text-indent: 20px;
+  width: 300px;
 }
