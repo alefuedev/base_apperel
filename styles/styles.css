@@ -121,5 +121,9 @@ input {
 		font-weight: lighter;
 	}
 
-
+	p {
+		margin-left: 120px;
+		text-align: left;
+		width: 400px;
+	}
 }
