@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
     <title>Base Apparel</title>
   </head>
   <body>
@@ -32,14 +33,20 @@
           launch deals.
         </p>
         <div class="form">
-          <form>
-            <input type="text" placeholder="Email Address" required />
-            <button type="submit">
+          <form target="_blank" method="post" >
+            <input
+							id="email"
+              type="email"
+              placeholder="Email Address"
+              name="email"
+              required
+            />
+            <button type="button" value="Submit" onclick="button()">
               <img src="images/icon-arrow.svg" alt="icon-arrow" />
             </button>
           </form>
-          <img class="attention" src="images/icon-error.svg" alt="" />
-          <p class="valid-email">Please provide a valid email</p>
+          <img id="attention" class="attention" src="images/icon-error.svg" alt="" />
+          <p id="valid-email" class="valid-email">Please provide a valid email</p>
         </div>
       </main>
       <img
