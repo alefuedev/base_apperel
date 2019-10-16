@@ -25,8 +25,8 @@
   width: 400px;
 }
 
-.hero-desktop{
-	display: none;
+.hero-desktop {
+  display: none;
 }
 
 .logo {
@@ -121,30 +121,38 @@ input {
     display: none;
   }
 
-	.hero-desktop {
-		display: unset;
-		position: absolute;
-		height: 800px;
-		width: 600px;
-		top: 0px;
-		right: 0px;
-	}
+  .hero-desktop {
+    display: unset;
+    position: absolute;
+    height: 800px;
+    width: 600px;
+    top: 0px;
+    right: 0px;
+  }
 
-	form {
-		margin-top: 50px;
-		margin-left: -1050px;
-	}
+  button {
+    position: absolute;
+    top: 0px;
+		right: 1070px;
+  }
 
-	h2 {
-		font-weight: lighter;
-	}
-	
-	
-	p {
-		font-size: 1em;
-		margin-left: 120px;
-		text-align: left;
+  form {
+    margin-top: 50px;
+    margin-left: -950px;
+  }
+
+  h2 {
+    font-weight: lighter;
+  }
+
+	input {
 		width: 400px;
 	}
-	
+
+  p {
+    font-size: 1em;
+    margin-left: 120px;
+    text-align: left;
+    width: 400px;
+  }
 }
