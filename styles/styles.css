@@ -1,13 +1,13 @@
-.conta iner {
+.container {
   display: flex;
   flex-direction: column;
 }
 
 .attention {
-	position: absolute;
-	right: 110px;
-	top: 700px;
-	opacity: 0;
+  position: absolute;
+  right: 110px;
+  top: 700px;
+  opacity: 0;
 }
 
 .coming-soon {
@@ -17,6 +17,9 @@
   line-height: 10px;
 }
 
+.desktop-background {
+	display: none;
+}
 .hero {
   margin-left: -12px;
   width: 400px;
@@ -28,15 +31,23 @@
 }
 
 .valid-email {
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: .5em;
-		margin-left: -120px;
-		opacity: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.5em;
+  margin-left: -120px;
+  opacity: 0;
 }
 
 .we {
   color: hsl(0, 36%, 70%);
   font-weight: 100 !important;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
 }
 
 button {
@@ -55,6 +66,11 @@ button {
 
 form {
   position: relative;
+}
+
+header {
+	margin-top: -10px;
+  background-color: white;
 }
 
 h2 {
