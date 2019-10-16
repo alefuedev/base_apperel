@@ -122,8 +122,10 @@ input {
 	}
 
 	p {
+		font-size: 1em;
 		margin-left: 120px;
 		text-align: left;
 		width: 400px;
 	}
+
 }
