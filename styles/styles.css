@@ -116,4 +116,10 @@ input {
   .hero {
     display: none;
   }
+
+	h2 {
+		font-weight: lighter;
+	}
+
+
 }
