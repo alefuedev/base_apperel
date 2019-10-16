@@ -130,10 +130,16 @@ input {
 		right: 0px;
 	}
 
+	form {
+		margin-top: 50px;
+		margin-left: -1050px;
+	}
+
 	h2 {
 		font-weight: lighter;
 	}
-
+	
+	
 	p {
 		font-size: 1em;
 		margin-left: 120px;
