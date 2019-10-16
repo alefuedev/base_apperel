@@ -25,6 +25,10 @@
   width: 400px;
 }
 
+.hero-desktop{
+	display: none;
+}
+
 .logo {
   margin: 30px 0 30px 30px;
   height: 25px;
@@ -117,6 +121,15 @@ input {
     display: none;
   }
 
+	.hero-desktop {
+		display: unset;
+		position: absolute;
+		height: 800px;
+		width: 600px;
+		top: 0px;
+		right: 0px;
+	}
+
 	h2 {
 		font-weight: lighter;
 	}
@@ -127,5 +140,5 @@ input {
 		text-align: left;
 		width: 400px;
 	}
-
+	
 }
